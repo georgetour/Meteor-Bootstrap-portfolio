@@ -1,0 +1,148 @@
+#main{
+    background: url("../wedding.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+.about{
+    margin-top:100px;
+}
+.blog{
+    margin-top:100px;
+}
+
+
+
+
+@font-face {
+    font-family: "blade";
+    src: url("../bladrf.ttf");
+    font-size: small;
+}
+
+.signature{
+    position: absolute;
+    right:0;
+    bottom: 0;
+
+    font-size: 7px;
+
+}
+
+.signature>span{
+    font-family: blade;
+}
+
+
+
+.navbar-default  .navbar-brand {
+color: black;
+}
+
+.navbar-default{
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width:767px ){
+    .services{
+        margin-top: 100px;
+    }
+    #header {
+        display: inline-block;
+        color: black;
+        margin-top: 400px;
+        background-color: white;
+        padding: 0;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    #header> h3{
+        font-size: 18px;
+        padding: 5px;
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .lastRow{
+        margin-bottom: 20px;
+        margin-top :50px;
+    }
+
+
+    #header {
+        display: inline-block;
+        color: black;
+        margin-top: 380px;
+        background-color: white;
+        padding: 15px;
+        border-top-left-radius:2em;
+        border-top-right-radius:2em;
+
+
+    }
+
+    #header> h3{
+        margin: 0;
+    }
+
+    .bungee{
+        height:214px;
+    }
+
+
+        #servicesLayout>header>h4{
+        border: 1px black solid;
+        text-align: center;
+    }
+
+
+        .servicesTitle{
+            padding: 7px;
+        }
+
+
+}
+
+@media screen and (min-width: 668px) {
+    .services{
+    margin-top: 100px;
+    }
+
+
+
+    #header {
+        display: inline-block;
+        color: black;
+        margin-top: 540px;
+
+        background-color: white;
+        padding: 15px;
+        border-top-left-radius:2em;
+        border-top-right-radius:2em;
+
+
+    }
+
+    #header> h3{
+        margin: 0;
+    }
+
+
+    #servicesLayout>header>h4{
+        border: 1px black solid;
+        text-align: center;
+    }
+
+
+    .servicesTitle{
+        padding: 7px;
+    }
+
+}
